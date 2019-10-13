@@ -1,7 +1,8 @@
 This repository is to provide me with a checklist when creating a new project
 
 - [ ] Create Repository and clone to local machine
-- [ ] add a [.gitignore file](https://github.com/github/gitignore) for Visual Studio
+    - include a .gitignore file for visual studio
+    - include a Readme file
 - [ ] create new project
 - [ ] Delete anything unnecessary that comes out of the box
 - [ ] Install client side libraries 
