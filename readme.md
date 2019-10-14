@@ -25,7 +25,7 @@ This repository is to provide me with a checklist when creating a new project
             - [ ] Everything in the body except renderbody tag
             - [ ] Scripts
         - [ ] appsettings.json contents
-- [ ] Install client side libraries 
+- [ ] Install client side libraries using [LibMan](library-manager.md)
 - [ ] Set up unit test project
 - [ ] install unit testing libraries:
     - [ ] Nunit 
