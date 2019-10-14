@@ -35,7 +35,6 @@ The following is my recommended configuration.
     }
   ]
 }
-© 2019 GitHub, Inc.
 ```
 
 More info on libman can be found here: 
