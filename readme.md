@@ -30,7 +30,7 @@ This repository is to provide me with a checklist when creating a new project
 - [ ] install unit testing libraries:
     - [ ] Nunit 
     - [ ] Moq
-    - [ ] Jasmine
+    - [ ] [Jasmine](jasmine-setup.md)
 - [ ] Set up Functional test project
 - [ ] Install functional test libraries
     - [ ] Selenium
