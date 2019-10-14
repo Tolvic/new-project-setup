@@ -4,7 +4,7 @@ This repository is to provide me with a checklist when creating a new project
     - include a .gitignore file for visual studio
     - include a Readme file
 - [ ] [Create new project](new-mvc-project.md)
-- [ ] Delete anything [unnecessary](things-to-delete-in-new-project) that comes out of the box
+- [ ] Delete anything [unnecessary](things-to-delete-in-new-project.md) that comes out of the box
 - [ ] Install client side libraries using [LibMan](library-manager.md)
 - [ ] Set up unit test project
 - [ ] install unit testing libraries:
