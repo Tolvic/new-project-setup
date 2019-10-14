@@ -1,3 +1,5 @@
+# New Project Setup Checklist
+
 This repository is to provide me with a checklist when creating a new project
 
 - [ ] Create Repository and clone to local machine
