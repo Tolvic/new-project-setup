@@ -1,4 +1,4 @@
-# Things to delete
+# Things to Delete
 The following things are included out of the box when creating an MVC app using Visual Studio. These can all be deleted 
 
 - [ ] site.css
