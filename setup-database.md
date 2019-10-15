@@ -74,7 +74,7 @@ Add a connection string to the appsettings.json file:
 }
 ```
 
-## Scaffold CRUD Pages For Your Model
+### Scaffold CRUD Pages For Your Model
 1. In Solution Explorer, right-click the Controllers folder > Add > New Scaffolded Item.
 2. In the Add Scaffold dialog, select MVC Controller with views, using Entity Framework > Add.
 3. Complete the Add Controller dialog:
@@ -92,7 +92,7 @@ This process will automatically create:
 
 **Note:** You can't use the scaffolded pages yet because the database doesn't exist. 
 
-## Initial Migration
+### Initial Migration
 Migrations is a set of tools that let you create and update a database to match your data model.
 
 From the Tools menu, select NuGet Package Manager > Package Manager Console (PMC).
