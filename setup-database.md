@@ -95,7 +95,7 @@ Add a connection string to the appsettings.json file:
 ```json
 {
   "ConnectionStrings": {
-      "MvcMovieContext": "Server=(localdb)\\mssqllocaldb;Database=[AppName]Context-1;Trusted_Connection=True;MultipleActiveResultSets=true"
+      "[AppName]Context": "Server=(localdb)\\mssqllocaldb;Database=[AppName]Context-1;Trusted_Connection=True;MultipleActiveResultSets=true"
     }
 }
 ```
