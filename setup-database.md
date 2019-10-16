@@ -141,8 +141,13 @@ https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-mode
 ## Seed Data
 This tutorial has some infomration about setting up seed data for a database:
 
-
-
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-3.0&tabs=visual-studio
 
-This may be usefull for running functional tests
+This is usuefull while developing an application. 
+
+It may also be usefull for running functional tests
+
+## Modifying Tables
+See this tutorial:
+
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/new-field?view=aspnetcore-3.0&tabs=visual-studio
