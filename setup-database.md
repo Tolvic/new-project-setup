@@ -66,7 +66,7 @@ namespace MvcMovie.Data
 The preceding code creates a DbSet<User> and DbSet<Tweet> entity sets.
 
 ### Register the Database Context
-The Database Context needs to be registered as a service within the Startup class to allow dependency inject. Components that require these services are provided them via their constructor parameters. 
+The Database Context needs to be registered as a service within the `Startup` class to allow dependency inject. Components that require these services are provided them via their constructor parameters. 
 
 In the Startup.cs class add the following
 
