@@ -82,8 +82,8 @@ public void ConfigureServices(IServiceCollection services)
 {
     services.AddControllersWithViews();
 
-    services.AddDbContext<MvcMovieContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
+    services.AddDbContext<[AppName]Context>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("[AppName]Context")));
 }
 ```
 
