@@ -31,7 +31,7 @@ namespace MvcMovie.Models
 }
 ```
 
-The Movie class contains an Id field, which is required by the database for the primary key.
+By default, Entity Framework interprets a property that's named ID or classnameID as the primary key
 
 ### Database Context Class
 A database context class is needed to coordinate EF Core functionality (Create, Read, Update, Delete).
