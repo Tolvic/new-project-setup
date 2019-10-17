@@ -195,4 +195,5 @@ public class Movie
 
 **Note:** Client side validation requires the jQuery client side validation library (included in the example [libman](https://github.com/Tolvic/new-project-setup/blob/master/library-manager.md) file)
 
-Inputs are validated serverside using `ModelState.IsValid`
+
+If you disable JavaScript in your browser, client validation is disabled , inputs should be validated server-side using `ModelState.IsValid`
