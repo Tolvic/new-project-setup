@@ -193,4 +193,4 @@ public class Movie
 * `StringLength` -> Max length for a string (min length is optional)
 * Value types (such as decimal, int, float, DateTime) are inherently required and don't need the [Required] attribute.
 
-** Note ** Client side validation requires the jQuery client side validation library (included in the example libman file)
+**Note:** Client side validation requires the jQuery client side validation library (included in the example [libman](https://github.com/Tolvic/new-project-setup/blob/master/library-manager.md) file)
