@@ -5,7 +5,8 @@
 
 ![](https://github.com/Tolvic/new-project-setup/blob/master/images/required-selenium-nuget-packages.PNG)
 
-3. create a test file and write your Selenium Script. An example is given below:
+3. You will need the appropriate driver for the browser you wish to test in (e.g. Chrome, Firefox, etc.). You will be able to download these from the NuGet package manager (Selenium.WebDriver.ChromeDriver for Chrome, Selenium.Firefox.WebDriver for Firefox, etc.)
+4. create a test file and write your Selenium Script. An example is given below:
 
 ```csharp
 using System.Diagnostics.CodeAnalysis;
