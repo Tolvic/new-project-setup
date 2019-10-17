@@ -37,5 +37,11 @@ The following is my recommended configuration.
 }
 ```
 
+Upon rebuilding your project, the libraries specified in your libman file should be downaload into wwwroot. 
+
+To use these libraries you will need to references them; most likely in your Layout file.
+
 More info on libman can be found here: 
 https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/?view=aspnetcore-3.0
+
+
