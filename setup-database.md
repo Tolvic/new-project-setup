@@ -194,3 +194,5 @@ public class Movie
 * Value types (such as decimal, int, float, DateTime) are inherently required and don't need the [Required] attribute.
 
 **Note:** Client side validation requires the jQuery client side validation library (included in the example [libman](https://github.com/Tolvic/new-project-setup/blob/master/library-manager.md) file)
+
+Inputs are validated serverside using `ModelState.IsValid`
