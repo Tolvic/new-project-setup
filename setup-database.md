@@ -197,3 +197,19 @@ public class Movie
 
 
 If you disable JavaScript in your browser, client validation is disabled , inputs should be validated server-side using `ModelState.IsValid`
+
+### DataType Attributes
+The `System.ComponentModel.DataAnnotations` namespace provides formatting attributes in addition to the built-in set of validation attributes.
+
+The DataType attribute is used to specify a data type that's more specific than the database intrinsic type, they're not validation attributes.
+
+The `DisplayFormat` attribute is used to explicitly specify the format for inputs, for example:
+
+```csharp
+[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+public DateTime ReleaseDate { get; set; }
+```
+
+You can use the DisplayFormat attribute by itself, but it's generally a good idea to use the DataType attribute.
+
+More information about Validation and DataType attributes can be found here: https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-3.0
