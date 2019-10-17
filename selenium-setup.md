@@ -56,4 +56,4 @@ namespace QuizManagerFunctionalTests
 
 **Note:** Selenium tests should always have a teardown where quit function is called on the driver. Otherwise you will be left with lots of instances of the browser running in the background which will slow down your computer and you will have to end task on each manually. 
 
-To run functional tests in your local environment, you will need to either set up IIS to run your application or run two instances of Visual Studio: one to run the the application and the other to run the tests.
+To run functional tests in your local environment, you will need to either [setup IIS to run your application](https://github.com/Tolvic/new-project-setup/blob/master/hosting-apps-in-iis.md) or run two instances of Visual Studio: one to run the the application and the other to run the tests.
