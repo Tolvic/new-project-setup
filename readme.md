@@ -16,8 +16,9 @@ This repository is to provide me with a checklist when creating a new project
 - [ ] Set up Functional test project
 - [ ] Install functional test libraries
     - [ ] [Selenium](selenium-setup.md)
+- [ ] [Setup IIS to run the web app](hosting-apps-in-iis.md) 
 - [ ] [Setup database](setup-database.md)
 
 ## Steps to research in the future
-- [ ] Setup IIS to run the web app
+
 - [ ] Set up a logger
