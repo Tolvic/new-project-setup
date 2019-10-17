@@ -21,4 +21,4 @@ The following things are included out of the box when creating an MVC app using 
         - [ ] Everything in the body except renderbody tag
         - [ ] Scripts
     - [ ] appsettings.json contents
-
+- [ ] Unused project references (right click the solution and select Refactor -> Remove Unused References -> Next)
