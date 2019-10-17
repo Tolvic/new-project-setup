@@ -1,8 +1,8 @@
 # Setting Up Jasmine Unit Testing
 
 * Download the latest standalone version of Jasmine from here: https://github.com/jasmine/jasmine/releases
-* In your test project create a folder called Jasmine and copy in the 
-* Jasmine files you have downloaded. At the time of writing this (Jasmine-3.4.0), the expected files are:
+* In your test project create a folder called lib and create a folder called Jasmine inside of it.
+* Copy in the Jasmine files you have downloaded. At the time of writing this (Jasmine-3.4.0), the expected files are:
   * boot.js
   * jasmine.css
   * jasmine.js
