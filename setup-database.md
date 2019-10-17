@@ -151,3 +151,46 @@ It may also be usefull for running functional tests
 See this tutorial:
 
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/new-field?view=aspnetcore-3.0&tabs=visual-studio
+
+## Adding Validation
+You can declaratively specify validation rules in one place (in the model class) and the rules are enforced everywhere in the app.
+
+The DataAnnotations namespace provides a set of built-in validation attributes. For Example
+
+```csharp
+public class Movie
+{
+    public int Id { get; set; }
+
+    [StringLength(60, MinimumLength = 3)]
+    [Required]
+    public string Title { get; set; }
+
+    [Display(Name = "Release Date")]
+    [DataType(DataType.Date)]
+    public DateTime ReleaseDate { get; set; }
+
+    [Range(1, 100)]
+    [DataType(DataType.Currency)]
+    [Column(TypeName = "decimal(18, 2)")]
+    public decimal Price { get; set; }
+
+    [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+    [Required]
+    [StringLength(30)]
+    public string Genre { get; set; }
+
+    [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
+    [StringLength(5)]
+    [Required]
+    public string Rating { get; set; }
+}
+```
+
+* `Required` and `MinimumLength` indicate that a property must have a value; but nothing prevents a user from entering white space to satisfy this validation.
+* `RegularExpression` -> input must meet regular expression 
+* `Range` -> set min and max values
+* `StringLength` -> Max length for a string (min length is optional)
+* Value types (such as decimal, int, float, DateTime) are inherently required and don't need the [Required] attribute.
+
+** Note ** Client side validation requires the jQuery client side validation library (included in the example libman file)
