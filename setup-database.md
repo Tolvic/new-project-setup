@@ -33,6 +33,8 @@ namespace MvcMovie.Models
 
 By default, Entity Framework interprets a property that's named ID or classnameID as the primary key
 
+Entity framework interprets properties that are named [ClassName]ID as a foreign key.  
+
 ### Database Context Class
 A database context class is needed to coordinate EF Core functionality (Create, Read, Update, Delete).
 
