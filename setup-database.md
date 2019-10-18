@@ -191,6 +191,7 @@ public class Movie
 
 * `Required` and `MinimumLength` indicate that a property must have a value; but nothing prevents a user from entering white space to satisfy this validation.
 * `RegularExpression` -> input must meet regular expression 
+    * This regex enforced alphabetical characters only: `[RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]`
 * `Range` -> set min and max values
 * `StringLength` -> Max length for a string (min length is optional)
 * Value types (such as decimal, int, float, DateTime) are inherently required and don't need the [Required] attribute.
