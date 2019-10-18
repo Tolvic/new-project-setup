@@ -214,4 +214,6 @@ public DateTime ReleaseDate { get; set; }
 
 You can use the DisplayFormat attribute by itself, but it's generally a good idea to use the DataType attribute.
 
+The DataType Enumeration provides for many data types, such as Date, Time, PhoneNumber, Currency, EmailAddress, and more
+
 More information about Validation and DataType attributes can be found here: https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-3.0
