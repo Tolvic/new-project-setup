@@ -16,9 +16,9 @@ This repository is to provide me with a checklist when creating a new project
 - [ ] Set up Functional test project
 - [ ] Install functional test libraries
     - [ ] [Selenium](selenium-setup.md)
-- [ ] [Setup IIS to run the web app](hosting-apps-in-iis.md) 
 - [ ] [Setup database](setup-database.md)
 
 ## Steps to research in the future
+- [ ] [Setup IIS to run the web app](hosting-apps-in-iis.md) (current implementation does not work. Needs further investigation)
 - [ ] Set up a logger
     - https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/monitoring-and-telemetry#log-for-insight
