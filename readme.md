@@ -6,7 +6,7 @@ This repository is to provide me with a checklist when creating a new project
     - include a .gitignore file for visual studio
     - include a Readme file
 - [ ] Add custom exclusions to .gitignore
-    - [ ] wwwroot/lib (client side libraries)
+    - [ ] */wwwroot/lib (client side libraries)
 - [ ] [Create new project](new-mvc-project.md)
 - [ ] Delete anything [unnecessary](things-to-delete-in-new-project.md) that comes out of the box
 - [ ] Install client side libraries using [LibMan](library-manager.md)
