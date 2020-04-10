@@ -6,7 +6,7 @@ These librarys can be installed by adding them to libman.json file.
 
 To use the library manager right click the project and click manage client side libraries. Then update the libman.json file. 
 
-The following is my recommended configuration. 
+The following is my recommended configuration. **Check that these are the latest version for each library**
 ```json
 {
   "version": "1.0",
@@ -14,7 +14,7 @@ The following is my recommended configuration.
   "libraries": [
     {
       "provider": "unpkg",
-      "library": "bootstrap@4.3.1",
+      "library": "bootstrap@4.4.1",
       "destination": "wwwroot/lib/bootstrap/"
     },
     {
@@ -30,7 +30,7 @@ The following is my recommended configuration.
       "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
     },
     {
-      "library": "font-awesome@5.8.2",
+      "library": "font-awesome@5.13.0",
       "destination": "wwwroot/lib/font-awesome/"
     }
   ]
