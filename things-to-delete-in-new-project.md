@@ -9,9 +9,8 @@ The following things are included out of the box when creating an MVC app using 
     - [ ] jQuery Validaation
     - [ ] jQuery Validation Unobtrusive
 - [ ] Home Controller
-    - [ ] constructor
-    - [ ] all methods except index
-- [ ] All Models
+    - [ ] Unrequired methos
+- [ ] Models
 - [ ] Views
     - [ ] Privacy
     - [ ] Error
@@ -20,5 +19,3 @@ The following things are included out of the box when creating an MVC app using 
         - [ ] Stylesheets
         - [ ] Everything in the body except renderbody tag
         - [ ] Scripts
-    - [ ] appsettings.json contents
-- [ ] Unused project references (right click the solution and select Refactor -> Remove Unused References -> Next)
